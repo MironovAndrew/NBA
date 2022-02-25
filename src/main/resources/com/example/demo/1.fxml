@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="3.0" prefHeight="47.0" prefWidth="600.0" style="-fx-border-style: dotted;">
+         <children>
+            <ImageView fitHeight="47.0" fitWidth="78.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/img.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="250.0" layoutY="14.0" text="Visitor Menu">
+               <font>
+                  <Font name="Verdana" size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="527.0" layoutY="12.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Back" />
+            <Label layoutX="34.0" layoutY="29.0" text="NBA Management System">
+               <font>
+                  <Font name="Verdana" size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="31.0" layoutY="97.0" prefHeight="265.0" prefWidth="539.0" style="-fx-border-style: dotted;">
+         <children>
+            <Button layoutX="75.0" layoutY="58.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Teams" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="343.0" layoutY="58.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Players" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="343.0" layoutY="165.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Photos" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="75.0" layoutY="165.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Matchups" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
