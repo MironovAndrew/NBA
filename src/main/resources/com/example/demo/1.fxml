@@ -29,11 +29,6 @@
       </Pane>
       <Pane layoutX="31.0" layoutY="97.0" prefHeight="265.0" prefWidth="539.0" style="-fx-border-style: dotted;">
          <children>
-            <Button layoutX="75.0" layoutY="58.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Teams" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Verdana" size="18.0" />
-               </font>
-            </Button>
             <Button layoutX="343.0" layoutY="58.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Players" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Verdana" size="18.0" />
@@ -51,5 +46,10 @@
             </Button>
          </children>
       </Pane>
+      <Button mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Teams" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
