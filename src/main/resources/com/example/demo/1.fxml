@@ -29,27 +29,26 @@
       </Pane>
       <Pane layoutX="31.0" layoutY="97.0" prefHeight="265.0" prefWidth="539.0" style="-fx-border-style: dotted;">
          <children>
-            <Button layoutX="75.0" layoutY="58.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Teams" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Verdana" size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="343.0" layoutY="58.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Players" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Verdana" size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="343.0" layoutY="165.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Photos" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Verdana" size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="75.0" layoutY="165.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Matchups" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Verdana" size="18.0" />
-               </font>
-            </Button>
+            <TabPane layoutX="-93.0" layoutY="-51.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Untitled Tab 1">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </Tab>
+                <Tab text="Untitled Tab 2">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
          </children>
       </Pane>
+      <Button mnemonicParsing="false" prefHeight="47.0" prefWidth="123.0" style="-fx-background-color: #69c;" text="Teams" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
