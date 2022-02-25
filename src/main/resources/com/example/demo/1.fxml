@@ -27,11 +27,24 @@
             </Label>
          </children>
       </Pane>
-      <Pane layoutX="31.0" layoutY="97.0" prefHeight="265.0" prefWidth="539.0" style="-fx-border-style: dotted;" />
-      <Button mnemonicParsing="false" prefHeight="47.0" prefWidth="123.0" style="-fx-background-color: #69c;" text="Teams" textAlignment="CENTER" textFill="WHITE">
-         <font>
-            <Font name="Verdana" size="18.0" />
-         </font>
-      </Button>
+      <TabPane layoutX="43.0" layoutY="84.0" prefHeight="272.0" prefWidth="521.0" style="-fx-border-width: 1; -fx-border-style: solid;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Western">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView layoutX="8.0" layoutY="14.0" prefHeight="230.0" prefWidth="521.0">
+                          <columns>
+                            <TableColumn prefWidth="169.0" text="Atlantic" />
+                            <TableColumn prefWidth="169.0" text="Central" />
+                              <TableColumn prefWidth="174.0" text="Southeast" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
    </children>
 </AnchorPane>
